@@ -1,0 +1,132 @@
+ul{
+           
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    float: right;
+    
+    /* transform: scale(1.5); */
+}
+li{
+    display: inline;
+    border: 1px solid black;
+    border-style: initial;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    /* color: brown; */
+   
+}
+
+/* .zoom {
+     /* padding: 50px;
+     background-color: green;
+     transition: transform .2s;
+     width: 200px;
+     height: 200px;*/
+     /* margin: 0 auto; 
+}
+ .zoom:hover {
+ -ms-transform: scale(1.5); /* IE 9 */
+     /* -webkit-transform: scale(1.5); /* Safari 3-8 */
+    /* transform: scale(1.5);
+    }
+    .zoom> li a:hover{
+        background-color: white;
+        z-index: 1;
+    }
+
+    .test-text:hover {
+        font-size: 20px;
+        }
+ */ 
+
+/* #idhome:hover {
+    /* transform: scale(1.5); */
+    /* -ms-transform: scale(1.5); /* IE 9 */
+  /* -webkit-transform: scale(1.5); /* Safari 3-8 */
+  /* transform: scale(1.5); 
+    }
+
+#idlogin:hover {
+    font-size: 25px;
+    } */
+
+/* #idoffer:hover {
+    font-size: 25px;
+    }
+#idbook:hover {
+    font-size: 25px;
+    } 
+ #idcontact:hover {
+    font-size: 25px; */
+     /*}*/ 
+
+
+
+li:hover{
+    background-color:#f3e8ff;
+   
+}
+
+body{
+    background-image: url("./doctor.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    border: 0px;
+    margin: 0px;
+    background-attachment: scroll;
+     background-color: #d2d2dd
+
+} 
+.topNav{
+    /* border: 2px solid black; */
+    background-color: rgb(122, 122, 146);
+    border: 4px solid rgb(116, 100, 116);
+    padding-left: 33px;
+    height: 70px;
+}
+
+.search h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+}
+
+.search .searchbox{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    border-style: initial;
+    border: 2px solid grey;
+    border-radius: 11px;
+    margin-top: 8px;
+    font-size: 17px;
+    width: 617px;
+    height: 42px;
+    
+}
+
+.search .searchicon{
+    position: absolute;
+    top: 40%;
+    left: 94%;
+    border: none;
+    
+}
+
+.customicon{
+    position: absolute;
+    top: 40%;
+    left: 94%;
+    border: none;
+    
+    font-size: 20px!important;
+    background-color: white;
+}
