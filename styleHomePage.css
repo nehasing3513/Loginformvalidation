@@ -23,67 +23,45 @@ li a{
    
 }
 
-/* .zoom {
-     /* padding: 50px;
-     background-color: green;
-     transition: transform .2s;
-     width: 200px;
-     height: 200px;*/
-     /* margin: 0 auto; 
-}
- .zoom:hover {
- -ms-transform: scale(1.5); /* IE 9 */
-     /* -webkit-transform: scale(1.5); /* Safari 3-8 */
-    /* transform: scale(1.5);
-    }
-    .zoom> li a:hover{
-        background-color: white;
-        z-index: 1;
-    }
-
-    .test-text:hover {
-        font-size: 20px;
-        }
- */ 
-
-/* #idhome:hover {
-    /* transform: scale(1.5); */
-    /* -ms-transform: scale(1.5); /* IE 9 */
-  /* -webkit-transform: scale(1.5); /* Safari 3-8 */
-  /* transform: scale(1.5); 
-    }
-
-#idlogin:hover {
-    font-size: 25px;
-    } */
-
-/* #idoffer:hover {
-    font-size: 25px;
-    }
-#idbook:hover {
-    font-size: 25px;
-    } 
- #idcontact:hover {
-    font-size: 25px; */
-     /*}*/ 
-
-
-
 li:hover{
+
     background-color:#f3e8ff;
    
 }
 
 body{
-    background-image: url("./doctor.png");
-    background-repeat: no-repeat;
-    background-size: 500px;
+    /* background-size: 500px; */
     border: 0px;
     margin: 0px;
     background-attachment: scroll;
-     background-color: #d2d2dd
+     background-color: #d2d2dd;
+     /* background-image: url("https://images.pexels.com/photos/7580253/pexels-photo-7580253.jpeg?auto=compress&cs=tinysrgb&w=400"); */
+     background-repeat: no-repeat;
+     background-size: cover;
 
 } 
+
+
+.banner{
+    background-image: url("https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1lZGljaW5lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.About{
+    width: 299px;
+    height: 14px;
+    margin: 80px;
+}
+
+button a{
+    text-decoration: none;
+
+}
+
 .topNav{
     /* border: 2px solid black; */
     background-color: rgb(122, 122, 146);
@@ -126,7 +104,56 @@ body{
     top: 40%;
     left: 94%;
     border: none;
-    
     font-size: 20px!important;
     background-color: white;
 }
+
+/* .product{
+    display: inline;
+} */
+#Box1{
+    margin: 34px;
+    display: flex;
+}
+
+
+.Box1content{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 20px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    
+    
+}
+
+.Box1content img{
+    height: 160px;
+    /* height: 300px; */
+    margin: auto;
+    display: block;
+    /* width: 332px;
+    padding: 22px;
+     */
+} 
+
+.choose img{
+    width: 500px;
+    height: 619px;
+    /* border: 2px solid grey; */
+    margin: 64px;
+    padding: 30px;
+    border-radius: 89px;
+}
+
+
+
+
+/* footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 47px;
+} */
